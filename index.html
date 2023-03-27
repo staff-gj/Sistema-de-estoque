@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado informações</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Estoque do Mercado</h1>
+    <table>
+      <tr>
+        <th>Produto</th>
+        <th>Quantidade</th>
+        <td><input class="adicionar" type="button" onclick="adicionar()" value="Adicionar"></td>
+      </tr>
+      <tr>
+        <td>Arroz</td>
+        <td>100</td>
+        <td><input class="editar" type="button" onclick="editar()" value="Editar"></td>
+        <td><input id="last-child" class="apagar" type="button" onclick="apagar()" value="Apagar"></td>
+      </tr>
+      <tr>
+        <td id="resultado">resultado</td>
+        <td id="quantidade">Quantidade</td>
+      </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

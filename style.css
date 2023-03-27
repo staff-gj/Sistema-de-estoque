@@ -1,0 +1,102 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  td button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  td button.edit {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  td button.delete {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  td button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  td button + button {
+    margin-left: 5px;
+  }
+  
+  td.quantity {
+    font-weight: bold;
+  }
+  
+  td.input-wrapper {
+    position: relative;
+  }
+  
+  td.input-wrapper input {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  td.input-wrapper button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  input{
+    margin-left: -180px;
+  }
+
+  .editar{
+    background-color: yellow;
+    border: none;
+  }
+  .apagar{
+    background-color: red;
+    border: none;
+  }
+
+  .adicionar{
+    position: absolute;
+    right: 260px;
+    top: 85px;
+    padding: 5px 10px;
+    border-color: yellow;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+  }
